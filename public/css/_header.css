@@ -1,0 +1,8 @@
+#navbar {
+    width: auto;
+    padding: 15px;
+}
+
+#navbar .chooser {
+    max-height: 30px;
+}

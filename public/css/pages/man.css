@@ -1,0 +1,11 @@
+#uniform, #accesories, #shoes {
+    height: 350px;
+}
+
+#uniform .chooser, #accesories .chooser, #shoes .chooser {
+    max-height: 100px;
+}
+
+#uniform.chooser-bg:hover, #accesories.chooser-bg:hover, #shoes.chooser-bg:hover {
+    opacity: 0.8;
+}
