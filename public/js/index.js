@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $("#navbar").addClass("hidden");
-
+    $("#footer").addClass("hidden");
     // Set boundaries automatically
     // $("#topic-chooser").height($(".chooser").width());
 
