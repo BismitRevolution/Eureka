@@ -38,7 +38,7 @@
     </head>
     <body>
         @include('layouts._header')
-        <div class="">
+        <div class="modal-exclude">
         @yield('content')
         </div>
 
@@ -78,6 +78,8 @@
         <script type="application/javascript" src="{{ asset('js/_footer.js') }}"></script>
         @yield('extra-js')
 
-        @include('layouts._footer')
+        <div class="modal-exclude">
+            @include('layouts._footer')
+        </div>
     </body>
 </html>

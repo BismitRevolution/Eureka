@@ -1,8 +1,33 @@
 #navbar {
+    max-height: 50px;
     width: auto;
     padding: 10px 15px 10px 15px;
 }
 
 #navbar .chooser {
     max-height: 20px;
+}
+
+#loginbar {
+    width: auto;
+    padding: 5px 15px 5px 15px;
+}
+
+#loginbar .chooser {
+    max-height: 20px;
+}
+
+#loginbar .chooser-mini {
+    max-height: 10px;
+}
+
+#login-modal {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+}
+
+#loginbar-menu img.chooser {
+    max-height: 50px;
+    margin: 25px;
 }
