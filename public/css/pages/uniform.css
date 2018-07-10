@@ -1,0 +1,38 @@
+body {
+    background-color: var(--color-light-gray) !important;
+}
+
+#searchbar {
+    height: 75px;
+}
+
+#uniform {
+    margin: 10px 10px 5px 10px;
+}
+
+#products {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#products .cell {
+    padding: 5px;
+}
+
+#products.grid-margin-x {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+
+#products.grid-margin-y {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+#uniform .chooser {
+    max-height: 100px;
+}
+
+#uniform.chooser-bg:hover, #products .chooser:hover {
+    opacity: 0.8;
+}

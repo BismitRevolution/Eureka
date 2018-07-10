@@ -18,6 +18,8 @@
 Route::get('/', 'PageController@index')->name('index');
 
 Route::get('/man', 'PageController@man')->name('man');
+Route::get('/uniform', 'PageController@uniform')->name('uniform');
+
 Route::get('/woman', 'PageController@woman')->name('woman');
 
 Auth::routes();

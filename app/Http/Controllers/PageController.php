@@ -17,4 +17,8 @@ class PageController extends Controller
     public function woman() {
         return view('pages.woman');
     }
+
+    public function uniform() {
+        return view('pages.uniform');
+    }
 }

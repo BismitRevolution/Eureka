@@ -1,6 +1,6 @@
 @extends('main')
 
-@section('title', config('app.name'))
+@section('title', "Man | Eureka")
 
 @section('extra-css')
 <link rel="stylesheet" href="{{ asset('css/pages/man.css') }}">
@@ -8,9 +8,9 @@
 
 @section('content')
 <div id="uniform" class="overlay-container chooser-bg" style="background-image: url({{ asset('img/Uniform_Hightlight.png') }})">
-    <div class="overlay-content grid-y align-middle align-center">
+    <a href="{{ route('uniform') }}" class="overlay-content grid-y align-middle align-center">
         <img class="chooser cell shrink" src="{{ asset('img/Uniform_Text.png') }}" alt="">
-    </div>
+    </a>
 </div>
 
 <div id="accesories" class="overlay-container chooser-bg" style="background-image: url({{ asset('img/Accesories_Hightlight.png') }})">

@@ -1,6 +1,6 @@
 @extends('main')
 
-@section('title', config('app.name'))
+@section('title', Home | Eureka)
 
 @section('extra-css')
 <link rel="stylesheet" href="{{ asset('css/index.css') }}">
