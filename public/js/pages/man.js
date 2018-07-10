@@ -1,4 +1,8 @@
 $(document).ready(function () {
+    // Set boundaries automatically
+    $("#uniform").height($("#uniform").width()/2);
+    $("#accesories").height($("#accesories").width()/2);
+    $("#shoes").height($("#shoes").width()/2);
 
     var chooserBg = document.getElementsByClassName("chooser-bg");
     function zoomHover(item) {

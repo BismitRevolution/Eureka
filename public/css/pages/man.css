@@ -1,5 +1,9 @@
+body {
+    background-color: var(--color-light-gray) !important;
+}
+
 #uniform, #accesories, #shoes {
-    height: 350px;
+    /* height: 350px; */
 }
 
 #uniform .chooser, #accesories .chooser, #shoes .chooser {
