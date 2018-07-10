@@ -8,8 +8,12 @@
 
     --color-gray: #D1CAC0;
     --color-gray-rgb: 209, 202, 192;
+    --color-semi-gray: #DFD8D0;
+    --color-semi-gray-rgb: 223, 216, 208;
     --color-light-gray: #E6E6E6;
     --color-light-gray-rgb: 230, 230, 230;
+    --color-red: #A23822;
+    --color-red-rgb: 162, 56, 34;
 }
 
 @font-face {
@@ -41,8 +45,16 @@
     background-color: var(--color-gray) !important;
 }
 
+.bg-semi-gray {
+    background-color: var(--color-semi-gray) !important;
+}
+
 .bg-light-gray {
     background-color: var(--color-light-gray) !important;
+}
+
+.bg-red {
+    background-color: var(--color-red) !important;
 }
 
 .primary {
@@ -67,6 +79,14 @@
 
 .gray {
     color: var(--color-gray) !important;
+}
+
+.semi-gray {
+    color: var(--color-semi-gray) !important;
+}
+
+.red {
+    color: var(--color-redd) !important;
 }
 
 .light-gray {
@@ -165,6 +185,7 @@ p {
  [type=month], [type=number], [type=password], [type=search], [type=tel],
  [type=text], [type=time], [type=url], [type=week], textarea {
     height: 2.6rem;
+    margin: 0px;
 }
 
 label {

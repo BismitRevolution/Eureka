@@ -1,8 +1,8 @@
 #navbar {
     width: auto;
-    padding: 15px;
+    padding: 10px 15px 10px 15px;
 }
 
 #navbar .chooser {
-    max-height: 30px;
+    max-height: 20px;
 }

@@ -2,8 +2,22 @@ body {
     background-color: var(--color-light-gray) !important;
 }
 
-#searchbar {
-    height: 75px;
+#searchbar, #searchbar-extended, #searchbar-sort {
+    width: auto;
+    padding: 5px 15px 5px 15px;
+}
+
+#searchbar .chooser, #searchbar-extended .chooser, #searchbar-sort .chooser {
+    max-height: 20px;
+}
+
+#searchbar .chooser-mini, #searchbar-extended .chooser-mini, #searchbar-sort .chooser-mini {
+    max-height: 10px;
+}
+
+#searchbar-extended .form-narrow {
+    height: 25px;
+    padding: 1px;
 }
 
 #uniform {
