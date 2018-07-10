@@ -17,6 +17,9 @@
 
 Route::get('/', 'PageController@index')->name('index');
 
+Route::get('/man', 'PageController@man')->name('man');
+Route::get('/woman', 'PageController@woman')->name('woman');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
