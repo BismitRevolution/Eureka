@@ -5,6 +5,11 @@
     --color-light-rgb: 242, 242, 242;
     --color-dark: #333333;
     --color-dark-rgb: 51, 51, 51;
+
+    --color-gray: #D1CAC0;
+    --color-gray-rgb: 209, 202, 192;
+    --color-light-gray: #E6E6E6;
+    --color-light-gray-rgb: 230, 230, 230;
 }
 
 @font-face {
@@ -32,6 +37,14 @@
     background-color: rgba(255, 255, 255, 0) !important;
 }
 
+.bg-gray {
+    background-color: var(--color-gray) !important;
+}
+
+.bg-light-gray {
+    background-color: var(--color-light-gray) !important;
+}
+
 .primary {
     color: var(--color-primary) !important;
 }
@@ -50,6 +63,14 @@
 
 .transparent {
     color: rgba(255, 255, 255, 0) !important;
+}
+
+.gray {
+    color: var(--color-gray) !important;
+}
+
+.light-gray {
+    color: var(--color-light-gray) !important;
 }
 
 .row {
@@ -83,7 +104,7 @@
 }
 
 .hidden {
-    display: none;
+    display: none !important;
 }
 
 .bold {

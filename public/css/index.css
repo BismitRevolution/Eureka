@@ -1,0 +1,11 @@
+#onboarding > div {
+    height: 100vh;
+}
+
+#onboarding .chooser-bg:hover {
+    opacity: 0.8;
+}
+
+#onboarding .chooser {
+    max-height: 100px;
+}
